@@ -17,6 +17,8 @@ Chrome almost certainly uses this header as an integrity signal. Verifying that 
 ## Generator
 
 ```python
+# chrome salt fetcher: https://github.com/elyelysiox/chrome-validation-salt
+
 import requests
 import hashlib, base64
 
